@@ -9,7 +9,7 @@ print(banner)
 
 parser = argparse.ArgumentParser(description="Simple Password Generator")
 parser.add_argument('arguments',metavar='Length of the password',type=int,help="Enter the length of the password")
-# type is optional if you want to specify the type of daa you want
+
 args = parser.parse_args()
 
 pass_len=args.arguments
